@@ -33,7 +33,7 @@ class Twilio_Core
 		// Load the Twilio API
 		if ( ! class_exists('Services_Twilio'))
 		{
-			require Kohana::find_file('vendor', 'twilio/Services/Twilio');
+			require Kohana::find_file('vendor', 'twilio/sdk/Services/Twilio');
 		}
 
 		// Instantiate an instance of the Twilio API.
